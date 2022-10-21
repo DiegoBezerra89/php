@@ -14,7 +14,7 @@
       return "Tenho $idade e sou $cor";
     };
     
-    //I need to learn , how to return an array and destructuring it, like JS, is it possible on PHP? We will see.
+    //I need to learn how to return an array and destructuring it, like in JS, is it possible on PHP? We will see.
     return $personComplete;
   }
 
