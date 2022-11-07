@@ -13,7 +13,7 @@
   // include_once './teste.php';
   // echo "include_once\n";
 
-  define("NAME", "Diego");
-  echo NAME;
+  setcookie('name', 'Renata', strtotime('+5days'));
 
+  setcookie('curso', 'PHP', strTotime('+2days'));
   
