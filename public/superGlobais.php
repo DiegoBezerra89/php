@@ -11,10 +11,10 @@ Possui uma data de validade, qualquer prazo, enquanto este prazo estiver ativo, 
 
 echo $_COOKIE['name'];
 echo $_COOKIE['curso'];
-
-
 //$_SESSION
 // Pode ser criado um valor que é acessado via um ID, no navegador, se quiser acessar , é só chamar o ID referente a sessão.
+session_start();
+echo isset($_SESSION['name']) ? 'sim' : 'não';
 
 //$_ENV
 //Por enquanto, não entraremos nesse quesito.

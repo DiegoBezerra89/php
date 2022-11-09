@@ -16,4 +16,10 @@
   setcookie('name', 'Renata', strtotime('+5days'));
 
   setcookie('curso', 'PHP', strTotime('+2days'));
-  
+
+
+  //inicia uma session
+  session_start();
+  require './superGlobais.php';
+  //pega o id da session
+  $_SESSION['name'] = 'Diego';
